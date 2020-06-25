@@ -1,3 +1,34 @@
 body {
-    background-color: red;
+   
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+    border: 1px solid black;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 600px;
+}
+
+.footer-right {
+    border: 1px solid blue;
+    width: 600px;
+   
+}
+
+.footer-right  p a {
+    justify-content: space-between;
+    
 }
