@@ -1,4 +1,4 @@
-
+ 
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -6,7 +6,7 @@ p {
 
 /*tiago*/
 nav {
-    margin-top: 50px;
+    margin-top: 165px;
     width: 1200px;
     height: 40px;
     margin-left: auto;
@@ -57,11 +57,10 @@ nav a {
     background-color: rgba(207, 205, 205, 0.199);
     
 }
-}
 
 .searchBar a {
     background-color: black;
-    /* height: 24px; */
+   
     
 }
 
@@ -75,14 +74,26 @@ nav a {
     border-top-left-radius: 10px;
     cursor: none;
     background-color: rgba(207, 205, 205, 0.199);
+} 
+
+header{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 
-
-
 /*GRACE*/
-footer {
+
+ .wrapper{
+    background-image:url("https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg");
+    background-size: cover;
+    background-position: left bottom;
+    height: 600px;
+    border: 1px solid black;
+}
+ footer {
     display: flex;
     flex-direction: row;
     margin-right: auto;
@@ -111,10 +122,10 @@ footer {
     display: flex;
    justify-content: space-around;
    
-}
+} 
 
 .footer-right  p a {
-    /* justify-content: space-between; */
+    
     color: #0088CC;
      
 }
@@ -137,4 +148,4 @@ footer {
 .fa-flag-usa {
 margin-top: 21px;
 padding-right: 60px;
-}
+} 
