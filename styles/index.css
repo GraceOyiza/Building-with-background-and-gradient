@@ -5,61 +5,77 @@ p {
 }
 
 /*tiago*/
-/* .main-image {
-    width: 100%;
-    height: 800px;
-    background-image: url(https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg);
-    background-size: cover;
-    background-size: 100% 800px;
-    background-repeat: no-repeat;
-    background-position: top -1000px
-
-}
-
-.main-container {
-    border: 1px solid black;
-    width: 1200px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 nav {
-    width: 1100px;
-    border: 1px solid black;
+    margin-top: 50px;
+    width: 1200px;
+    height: 40px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-    margin-bottom: 300px;
+    border: 1px solid black;
+    background-color: gray;
+    border-radius: 10px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: baseline;
-    
-    height: 30px;
 }
 
 nav a {
-
-    width: 100px;
-    border-right: black 1px solid;
+    width: 131.25px;
+    border-right: 1px solid rgb(87, 86, 86);
+    font-size: 14px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
+.apple {
+    font-size: 22px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
 
+.searchBar {
+    height: 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center; 
+     align-items: flex-end; 
+}
 
-header {
-    border: 1px solid black;
-} */
+.searchBar input {
+    width: 100px;
+    height: 24pX;
+    padding: 0;
+     border: 0;
+    /* background-color: gray; */
+    color: white;
+    outline: none; 
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgba(207, 205, 205, 0.199);
+    
+}
+}
 
+.searchBar a {
+    background-color: black;
+    /* height: 24px; */
+    
+}
 
-
-
-
-
-
-
-
-
-
-
+#lupa {
+    border-right: 0;
+    padding: 7px;
+    font-size: 10px;
+    height: 24px;
+    width: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    cursor: none;
+    background-color: rgba(207, 205, 205, 0.199);
+}
 
 
 
