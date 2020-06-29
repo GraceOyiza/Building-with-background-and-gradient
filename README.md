@@ -8,7 +8,7 @@ Tiago and Grace's Building-with-background-and-gradient
 
 Additional description about the project and its features.
 
-This project was the second project compiled by Grace and Tiago in the Microverse HTML/CSS section of the course work. It involved cloning a apple page.The project contains a wrapper with a background image, a slide with images and a footer. The page contains a navBar with a special background gradient color.
+This project was the second project compiled by Grace and Tiago in the Microverse HTML/CSS section of the course work. It involved cloning an apple page.The project contains a wrapper with a background image, a slide with images and a footer. The page contains a navBar with a special background gradient color.
 
 ## Built With
 
