@@ -7,10 +7,22 @@ p {
     margin-bottom: 0;
 }
 
-/*tiago*/
+
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+   max-width: 1300px;
+   background-image:url("https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg");
+   background-size: cover;
+   background-position: left bottom;
+   height: 600px;
+   border: 1px solid black;
+}
+
 nav {
     margin-top: 100px;
-    max-width   : 1200px;
+    max-width   : 1000px;
     height: 40px;
     margin-left: auto;
     margin-right: auto;
@@ -33,10 +45,15 @@ nav a {
     padding-bottom: 12px;
 }
 
+nav a:hover {
+    opacity: 0.5;
+    background-color: rgb(99, 99, 99);
+}
+
 .apple {
-    font-size: 22px;
-    padding-top: 7.5px;
-    padding-bottom: 7.5px;
+    font-size: 20px;
+    padding-top: 6.5px;
+    padding-bottom: 8.5px;
 }
 
 .searchBar {
@@ -48,11 +65,10 @@ nav a {
 }
 
 .searchBar input {
-    width: 100px;
+    width: 80px;
     height: 24pX;
     padding: 0;
      border: 0;
-    /* background-color: gray; */
     color: white;
     outline: none; 
     border-bottom-right-radius: 10px;
@@ -62,15 +78,13 @@ nav a {
 }
 
 .searchBar a {
-    background-color: black;
-   
-    
+    /* background-color: black; */
 }
 
 #lupa {
-    border-right: 0;
+    color: white;
     padding: 7px;
-    font-size: 10px;
+    font-size: 11px;
     height: 24px;
     width: 20px;
     border-bottom-left-radius: 10px;
@@ -89,10 +103,12 @@ header{
     font-weight: 0;
 }
 
+/*HEADER*/
+
 header h1 {
     font-size: 50px;
-    /* font-weight: 500; */
     padding-bottom: 20px;
+    font-weight: normal;
 }
 
 header p {
@@ -100,8 +116,20 @@ header p {
     padding-bottom: 30px;
 }
 
-#icon {
-  background-color: yellow;
+header a {
+    color: white;
+    font-size: 25px;
+}
+ #play{
+     display: inline;
+    font-size: 25px;
+    /* margin-left: 5px;
+    padding-top: 200px; */
+    
+}
+
+header a:hover {
+    text-decoration: underline;
 }
 
 .slide-image {
@@ -109,8 +137,6 @@ header p {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    
-
 }
 
 .slide-image img {
@@ -118,32 +144,23 @@ header p {
     padding: 2px;
 }
 
-/*GRACE*/
 
- .wrapper{
-     margin-left: auto;
-     margin-right: auto;
-    max-width: 1300px;
-    background-image:url("https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg");
-    background-size: cover;
-    background-position: left bottom;
-    height: 600px;
-    border: 1px solid black;
-}
+
  footer {
     display: flex;
     flex-direction: row;
     margin-right: auto;
     margin-left: auto;
-    width: 1200px;
+    width: 1000px;
     font-size: 12px;
     color: grey;
+    padding-bottom: 20px;
 }
 
 .footer-left {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 500px;
 }
 
 .footer-left p,
@@ -152,34 +169,30 @@ header p {
 }
 
 .footer-right {
-    width: 600px;
+    width: 500px;
     display: flex;
-   justify-content: space-around;
+    justify-content: space-around;
    
-} 
-
-.footer-right  p a {
-    
-    color: #0088CC;
-     
-}
+}   
 
 .footer-right1 {
-    border-right: 1px solid #6E6E6E; 
-    padding-right: 6px; 
+    border-right: 1px solid gray; 
+    padding-right: 6px;
+    padding-left: 6px;  
 }
 
 .lastone {
-    border-left: 1px solid #6E6E6E;
+    border-left: 1px solid gray;
     padding-left: 6px;
     
 }
 
+.footer-right p a,
 .footer-left p a {
     color: #0088CC;
 }
 
-.fa-flag-usa {
-margin-top: 21px;
-padding-right: 60px;
-} 
+#usaFlag {
+    color: gray ;
+    padding-left: 6px;
+}
