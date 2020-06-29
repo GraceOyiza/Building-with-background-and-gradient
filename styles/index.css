@@ -1,37 +1,36 @@
 body {
   font-family: "Lucida Sans Unicode", serif;
- 
-} 
-p {
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
-
-.wrapper{
-    margin-left: auto;
-    margin-right: auto;
-   max-width: 1300px;
-   background-image:url("https://archive.fo/UW4oR/c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg");
-   background-size: cover;
-   background-position: left bottom;
-   height: 600px;
-   border: 1px solid black;
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+  background-image: url("https://archive.fo/UW4oR  c737ac2a39d31e8407c5d08a73daddc5ddcf5d3e.jpg");
+  background-size: cover;
+  background-position: left bottom;
+  height: 600px;
+  border: 1px solid black;
 }
 
 nav {
-    margin-top: 100px;
-    max-width   : 1000px;
-    height: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  margin-top: 100px;
+  max-width: 1000px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2))
+  color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
     background-color: gray;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav a {
@@ -61,7 +60,7 @@ nav a:hover {
     width: 150px;
     display: flex;
     justify-content: center; 
-     align-items: flex-end; 
+    align-items: flex-end; 
 }
 
 .searchBar input {
@@ -75,10 +74,6 @@ nav a:hover {
     border-top-right-radius: 10px;
     background-color: rgba(207, 205, 205, 0.199);
     
-}
-
-.searchBar a {
-    /* background-color: black; */
 }
 
 #lupa {
@@ -103,8 +98,6 @@ header{
     font-weight: 0;
 }
 
-/*HEADER*/
-
 header h1 {
     font-size: 50px;
     padding-bottom: 20px;
@@ -123,9 +116,6 @@ header a {
  #play{
      display: inline;
     font-size: 25px;
-    /* margin-left: 5px;
-    padding-top: 200px; */
-    
 }
 
 header a:hover {
@@ -143,8 +133,6 @@ header a:hover {
     width: 100%;
     padding: 2px;
 }
-
-
 
  footer {
     display: flex;
@@ -178,13 +166,12 @@ header a:hover {
 .footer-right1 {
     border-right: 1px solid gray; 
     padding-right: 6px;
-    padding-left: 6px;  
+    padding-left: 6px;
 }
 
 .lastone {
     border-left: 1px solid gray;
     padding-left: 6px;
-    
 }
 
 .footer-right p a,
