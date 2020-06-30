@@ -25,7 +25,15 @@ This project was the second project compiled by Grace and Tiago in the Microvers
 
 ## Getting Started
 
-To get your own copy of our project clone the repository to your local machine.
+To get your own copy of our project clone the repository to your local machine, by follow this instructions:
+
+1. Navigate to the main page of our repository
+2. Under the repository name, click Clone or download.
+3. In the Clone with HTTPs section, click  to copy the clone URL for the repository
+4. Open Git Bash, terminal
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 2.
+7. Press Enter. Your local clone will be created.
 
 
 ## Authors
@@ -33,10 +41,12 @@ To get your own copy of our project clone the repository to your local machine.
 👤 **Grace Popoola**
 
 - Github: [@GraceOyiza](https://github.com/GraceOyiza)
+- Twitter: [@_PopsonGrace](https://twitter.com/@_PopsonGrace)
 
 👤 **Tiago Alves**
 
 - Github: [@tiagoes](https://github.com/tiagoes)
+- Twitter [@TiagoEspiritoS2](https://twitter.com/TiagoEspiritoS2)
 
 
 ## 🤝 Contributing
